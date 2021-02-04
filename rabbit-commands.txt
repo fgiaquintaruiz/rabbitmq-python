@@ -1,0 +1,5 @@
+brew services start rabbitmq
+
+brew services stop rabbitmq
+
+rabbitmqctl list_bindings
